@@ -16,6 +16,27 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <header class="superior">
+            <div class="container d-flex flex-wrap"> 
+                <p class="nav me-auto">
+                    <span class="nav-item nav-link px-2">Siguenos en nuestras redes sociales</span>
+                </p>
+                <ul class="nav"> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fab fa-facebook-f"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fab fa-tiktok"></i></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2"><i class="fab fa-github"></i></a>
+                    </li> 
+                </ul> 
+            </div>
+        </header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-light">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -33,16 +54,16 @@
                             <a class="nav-link" href="#">Menú</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#">Galletas</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Pasteles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reposteria</a>
+                            <a class="nav-link" href="#">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Ofertas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +94,7 @@
         <!-- NUESTROS PASTELES -->
         <section class="pasteles py-4 bg-light">
             <div class="container">
-                <h2 class="text-center mb-4">Nuestros Pasteles</h2>
+                <h2 class="text-center mb-4">Pasteles Recomendados</h2>
 
                 <div class="row justify-content-center text-center">
                     <!-- Pastel 1 -->
@@ -113,7 +134,7 @@
 
         <section class="pasteles py-5 bg-light pb-10">
             <div class="container">
-                <h2 class="text-center mb-4">Pasteles Destacados</h2>
+                <h2 class="text-center mb-4">Pasteles más vendidos</h2>
 
                 <div class="row justify-content-center text-center">
                     <!-- Pastel 5 -->
@@ -142,8 +163,7 @@
 
                     <!-- Card -->
                     <div class="col-md-3">
-                        <div class="card text-center border-0 shadow-sm"
-                            style="width: 18rem; background-color: #f6b4c2; color: white;">
+                        <div class="card text-center border-0 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold pt-3">Valentine’s Edition Desserts</h5>
                                 <p class="card-text fw-bold">15% OFF</p>
@@ -164,34 +184,37 @@
         <footer>
             <div class="footer-contenedor">
                 <!-- Columna 1 -->
-                <div class="footer-columna">
-                    <h3>Patisserie</h3>
-                    <ul>
-                        <li>León, Gto. México</li>
-                        <li>Lunes a Sábado: 9:00 - 20:00</li>
-                        <li>Contacto: hola@patisserie.mx</li>
-                    </ul>
-                </div>
-
-                <!-- Columna 2 -->
-                <div class="footer-columna">
-                    <h3>Información</h3>
-                    <ul>
-                        <li><a href="#">Acerca de Nosotros</a></li>
-                        <li><a href="#">Política de Privacidad</a></li>
-                        <li><a href="#">Términos y Condiciones</a></li>
-                    </ul>
-                </div>
-
-                <!-- Columna 3 -->
-                <div class="footer-columna">
+                 <div class="footer-columna">
                     <h3>Redes Sociales</h3>
-                    <p>Síguenos y descubre nuestras creaciones:</p>
                     <div class="sociales">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
                     </div>
+                </div>
+
+                <!-- Columna 2 -->
+                <div class="footer-columna">
+                    <h3>Contáctanos</h3>
+                    <p>Búscanos a través del correo:</p>
+                    <p>correo@example.com</p>
+                </div>
+
+                <!-- Columna 3 -->
+                <div class="footer-columna">
+                    <h3>Información</h3>
+                    <ol>                        
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                    </ol>
+                </div>
+
+                <!-- Columna 4 -->
+                <div class="footer-columna">
+                    <h3>Ordéna rápido</h3>
+                    <a class="btn btn-lg btn-dark col-12" href="#">Aquí</a>
                 </div>
             </div>
         </footer>
