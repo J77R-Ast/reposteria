@@ -63,7 +63,7 @@ body {
   display: inline-block;
   padding: 14px 40px;
   border-radius: 50px;
-  background: linear-gradient(90deg, #ff9ca3, #ffc7b2);
+  background: linear-gradient(90deg, #8248b9, #bc91e4);
   color: #fff;
   font-weight: 600;
   text-transform: none;
@@ -112,7 +112,7 @@ footer {
 }
 
 .footer-contenedor h3 {
-  color: #ffc7b2;
+  color: #8248b9;
   text-transform: uppercase;
   font-size: 1.1rem;
   margin-bottom: 12px;
@@ -126,7 +126,7 @@ footer {
 }
 
 .footer-contenedor a:hover {
-  color: #ff9ca3;
+  color: #9f87b6;
 }
 
 .sociales {
@@ -138,7 +138,7 @@ footer {
 
 .sociales a {
   font-size: 1.6rem;
-  color: #ffc7b2;
+  color: #8248b9;
   transition: transform 0.3s;
 }
 
@@ -148,6 +148,10 @@ footer {
 
 .card {
   width: 18rem; 
-  background-color: rgb(130, 72, 185);
+  background-color: #8248b9;
   color: white;
+}
+
+.superior {
+  background-color: #8248b9;
 }
