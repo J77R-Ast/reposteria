@@ -145,3 +145,9 @@ footer {
 .sociales a:hover {
   transform: scale(1.2);
 }
+
+.card {
+  width: 18rem; 
+  background-color: rgb(130, 72, 185);
+  color: white;
+}
