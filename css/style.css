@@ -1,0 +1,147 @@
+/* FUENTES */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #ffe4ec;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffe4ec;
+}
+
+/* HEADER */
+#inicio {
+  height: 85vh;
+  background-image: url('../img/fondo1.png');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.inicio-titulo {
+  margin-left: auto;
+  max-width: 500px;
+  text-align: right;
+  margin-right: 10%;
+}
+
+.inicio-titulo h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.inicio-titulo p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.inicio-titulo a {
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #ff9ca3, #ffc7b2);
+  color: #fff;
+  font-weight: 600;
+  text-transform: none;
+  transition: transform 0.3s;
+}
+
+.inicio-titulo a:hover {
+  transform: scale(1.05);
+}
+
+/* PASTELES */
+.pastel-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pastel-img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.pasteles {
+  background-color: #fff5f8;
+  padding: 60px 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  text-align: left;
+  padding: 20px 40px;
+}
+
+.footer-contenedor h3 {
+  color: #ffc7b2;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.footer-contenedor a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-contenedor a:hover {
+  color: #ff9ca3;
+}
+
+.sociales {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+  align-items: center;
+}
+
+.sociales a {
+  font-size: 1.6rem;
+  color: #ffc7b2;
+  transition: transform 0.3s;
+}
+
+.sociales a:hover {
+  transform: scale(1.2);
+}
